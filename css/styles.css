@@ -3,3 +3,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding: 30px;
+}
+
+button {
+    width: 80px;
+    height: 65px;
+    border-radius: 10%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-numpad {
+    border: 4px solid gray;
+    padding: 20px;
+    width: 440px;
+    border-radius: 4%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.numpad-row {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
