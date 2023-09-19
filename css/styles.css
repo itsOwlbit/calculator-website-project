@@ -75,3 +75,7 @@ button {
 .font-cyan {
     color:darkcyan;
 }
+
+.percentage-button, .decimal-button, .del-button {
+    background-color: #555;
+}
